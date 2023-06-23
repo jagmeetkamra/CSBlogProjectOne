@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>My Blog</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -15,12 +15,12 @@
                 JAGMEET KAMRA'S CYBER BLOG
             </a>
         </h1>
-        <a href="mailto:jagmeetkamra@gmail.com" class="button">Send Email</a>
-        <a href="https://www.linkedin.com/jagmeet-kamra" class="linkedin"><img
+        <a href="mailto:jagmeetkamra@gmail.com" class="linkedin"><img src="https://drive.google.com/uc?export=view&id=1oLgZU3SmZOEd7G2rrjdZqxkEsjDKhIEj" alt="mail icon" height="45px"></a>
+        <!-- in a class="button"-->
+        <a href="https://www.linkedin.com/in/jagmeet-kamra" class="linkedin"><img
                 src="https://drive.google.com/uc?export=view&id=14GW-oOoadlMxUGs5FvKkgGkrihtkFyUh" alt="LinkedIn logo"
                 height="45px"></a>
     </header>
-
 
     <!-- "About" section -->
     <section id="about" class="intro">
@@ -29,11 +29,13 @@
             alt="Jagmeet Kamra picture" height=300px;>
         <h2 class="section-title">Hi, I'm Jagmeet !</h2>
         <p>
-            This is a little introductory paragraph. You can talk about yourself, your motivation for starting the blog,
-            or what users can expect from your content! Edit this space as you see fit. Get creative!
+            I'm a cyber security student and I'm thrilled to kickstart this blog journey with you. The
+            purpose of my blog is to demystify the world of cyber security and make it accessible to everyone. I want to
+            share my learnings, experiences, and practical tips to help individuals protect themselves in this digital
+            age. My key motivation for starting this blog is to empower others with the knowledge and tools needed to
+            stay safe online. So, let's embark on this exciting adventure together and strengthen our digital defenses
+            one blog post at a time!
             <br><br>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam.
         </p>
     </section>
 
@@ -43,45 +45,141 @@
         <h2 class="section-title">Blog Posts</h2>
         <article class="blog-post">
 
-            <div>
-            <img src="https://drive.google.com/uc?export=view&id=1ueyXZqXdMHEawBDTGLVD5-Kdp1t5DUZy&rl" alt="Image 1">
-            </div>
-            <div class="blog">
-                <h3>Cryptography in the New Age of Quantum Computing</h3>
-                <p style="font-family:Courier">cryptography  RSA  encryption  quantum  algorithms  cybersecurity  data</p>
-                <p align="justify">
-                        Currently, there are nation states and individual actors who intercept and store encrypted data containing sensitive information such as passwords, bank details, and social security numbers. Although they cannot decrypt these files at the moment, they believe that within the next 10 to 20 years, quantum computers will be able to break the encryption quickly. This practice is referred to as Store Now, Decrypt Later (SNDL). The reason behind this is that certain information available today will still be valuable in the future, including industrial and pharmaceutical research as well as top-secret government intelligence.
-<br><br>
-The National Security Administration acknowledges the threat posed by quantum computers, stating that a sufficiently large quantum computer could undermine widely used public key algorithms. The U.S. Congress has recently passed legislation requiring government agencies to transition to new cryptographic methods that cannot be broken by quantum computers.
-<br><br>
-To understand the current encryption methods, it's helpful to look back at their history. In the past, if two parties wanted to exchange private information, they would meet in person and share a secret key. This method, known as asymmetric key algorithm, ensured the security of messages as long as the key remained private. However, with the need to send information to unfamiliar recipients or over unsecured channels like phone lines or mail, a new encryption breakthrough was necessary.
-<br><br>
-In 1977, three scientists named Rivest, Shamir, and Adelman devised an encryption system called RSA. It involved each individual having two large prime numbers, which they kept secret. These numbers were multiplied to obtain an even larger number, which was made public. To send a private message, the sender would use the recipient's public number to encrypt the message in a way that only the two prime factors could decrypt it. This system, called asymmetric key system, allowed secure communication without the need for a shared key.
-<br><br>
-Quantum computers have the potential to break the encryption methods used in RSA and other public key cryptography. Unlike classical computers, which use bits that can represent either 0 or 1, quantum computers use qubits that can exist in a superposition of states. This means that quantum computers can perform multiple calculations simultaneously, leading to exponentially faster computations. However, reading the results from a superposition is challenging, and extracting the desired information requires complex techniques. Peter Shor and Don Coppersmith developed a quantum algorithm in 1994 called the quantum Fourier transform, which allows for extracting frequency information from a periodic superposition. Read more about quantum fourier transformation: https://www.qutube.nl/quantum-algorithms/quantum-fourier-transform .This process can lead to the discovery of the prime factors of N, even for large numbers, which would be impractical for classical computers.
-<br><br>
-In conclusion, although quantum computers have the potential to break current encryption methods, their practical implementation is still years away. However, the threat of "Store Now, Decrypt Later" practices has prompted the U.S. Congress to pass legislation mandating the adoption of quantum-resistant cryptographic methods. The history and principles of encryption, as well as the specific challenges and opportunities presented by quantum computers, highlight the need for robust and future-proof cryptographic techniques
+            <div class="blog"></div>
 
+            <h2>Cryptography in the New Age of Quantum Computing</h2>
 
-                </p>
+            <br><br>
+            <p class="tags">cryptography | RSA | encryption | quantum | algorithms | cybersecurity
+                data</p>
+            <br>
+            
+            <img src="https://drive.google.com/uc?export=view&id=1wkMovnfGM-K55XnUNZMrGIE0ZwZHNK5x" alt="Image 1">
+            <p class="blog-content">
+                Currently, there are nation states and individual actors who intercept and store encrypted data
+                containing sensitive information such as passwords, bank details, and social security numbers.
+                Although they cannot decrypt these files at the moment, they believe that within the next 10 to 20
+                years, quantum computers will be able to break the encryption quickly. This practice is referred to
+                as Store Now, Decrypt Later (SNDL). The reason behind this is that certain information available
+                today will still be valuable in the future, including industrial and pharmaceutical research as well
+                as top-secret government intelligence.
+                <br><br>
+                The National Security Administration acknowledges the threat posed by quantum computers, stating
+                that a sufficiently large quantum computer could undermine widely used public key algorithms. The
+                U.S. Congress has recently passed legislation requiring government agencies to transition to new
+                cryptographic methods that cannot be broken by quantum computers.
+                <br><br>
+                To understand the current encryption methods, it's helpful to look back at their history. In the
+                past, if two parties wanted to exchange private information, they would meet in person and share a
+                secret key. This method, known as asymmetric key algorithm, ensured the security of messages as long
+                as the key remained private. However, with the need to send information to unfamiliar recipients or
+                over unsecured channels like phone lines or mail, a new encryption breakthrough was necessary.
+                <br><br>
+                In 1977, three scientists named Rivest, Shamir, and Adelman devised an encryption system called RSA.
+                It involved each individual having two large prime numbers, which they kept secret. These numbers
+                were multiplied to obtain an even larger number, which was made public. To send a private message,
+                the sender would use the recipient's public number to encrypt the message in a way that only the two
+                prime factors could decrypt it. This system, called asymmetric key system, allowed secure
+                communication without the need for a shared key.
+                <br><br>
+                Quantum computers have the potential to break the encryption methods used in RSA and other public
+                key cryptography. Unlike classical computers, which use bits that can represent either 0 or 1,
+                quantum computers use qubits that can exist in a superposition of states. This means that quantum
+                computers can perform multiple calculations simultaneously, leading to exponentially faster
+                computations. However, reading the results from a superposition is challenging, and extracting the
+                desired information requires complex techniques. Peter Shor and Don Coppersmith developed a quantum
+                algorithm in 1994 called the quantum Fourier transform, which allows for extracting frequency
+                information from a periodic superposition. Read more about Quantum Fourier Transform
+                <a href="https://www.qutube.nl/quantum-algorithms/quantum-fourier-transform"><u>here</u></a>. This
+                process can
+                lead to the
+                discovery of the prime factors of N, even for large numbers, which would be impractical for
+                classical computers.
+                <br><br>
+                In conclusion, although quantum computers have the potential to break current encryption methods,
+                their practical implementation is still years away. However, the threat of "Store Now, Decrypt
+                Later" practices has prompted the U.S. Congress to pass legislation mandating the adoption of
+                quantum-resistant cryptographic methods. The history and principles of encryption, as well as the
+                specific challenges and opportunities presented by quantum computers, highlight the need for robust
+                and future-proof cryptographic techniques.
+                <br><br>
+
+            </p>
             </div>
 
         </article>
 
-
-        <!-- second blog post -->
         <article class="blog-post">
-            <img src="https://drive.google.com/uc?export=view&id=1PJrGBg8LgxHAzwhfM6drWR5fdfNQkRE4" alt="Image-2">
-            <div class="blog">
-                <h3>Blog Post 2 Title</h3>
-                <h4>Add Keywords</h4>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi neque animi quo cupiditate
-                    commodi saepe culpased itaque velit maiores optio dolorem excepturi aperiam dolores,
-                    voluptatibus suscipit amet quis repellat!
-                </p>
+
+            <div class="blog"></div>
+
+            <h2>Cryptography in the New Age of Quantum Computing</h2>
+            <img src="https://drive.google.com/uc?export=view&id=1PJrGBg8LgxHAzwhfM6drWR5fdfNQkRE4" alt="Image 1">
+
+
+            <br><br>
+            <p class="tags">cryptography | RSA | encryption | quantum | algorithms | cybersecurity
+                data</p>
+            <br>
+            <p class="blog-content">
+                Currently, there are nation states and individual actors who intercept and store encrypted data
+                containing sensitive information such as passwords, bank details, and social security numbers.
+                Although they cannot decrypt these files at the moment, they believe that within the next 10 to 20
+                years, quantum computers will be able to break the encryption quickly. This practice is referred to
+                as Store Now, Decrypt Later (SNDL). The reason behind this is that certain information available
+                today will still be valuable in the future, including industrial and pharmaceutical research as well
+                as top-secret government intelligence.
+                <br><br>
+                The National Security Administration acknowledges the threat posed by quantum computers, stating
+                that a sufficiently large quantum computer could undermine widely used public key algorithms. The
+                U.S. Congress has recently passed legislation requiring government agencies to transition to new
+                cryptographic methods that cannot be broken by quantum computers.
+                <br><br>
+                To understand the current encryption methods, it's helpful to look back at their history. In the
+                past, if two parties wanted to exchange private information, they would meet in person and share a
+                secret key. This method, known as asymmetric key algorithm, ensured the security of messages as long
+                as the key remained private. However, with the need to send information to unfamiliar recipients or
+                over unsecured channels like phone lines or mail, a new encryption breakthrough was necessary.
+                <br><br>
+                In 1977, three scientists named Rivest, Shamir, and Adelman devised an encryption system called RSA.
+                It involved each individual having two large prime numbers, which they kept secret. These numbers
+                were multiplied to obtain an even larger number, which was made public. To send a private message,
+                the sender would use the recipient's public number to encrypt the message in a way that only the two
+                prime factors could decrypt it. This system, called asymmetric key system, allowed secure
+                communication without the need for a shared key.
+                <br><br>
+                Quantum computers have the potential to break the encryption methods used in RSA and other public
+                key cryptography. Unlike classical computers, which use bits that can represent either 0 or 1,
+                quantum computers use qubits that can exist in a superposition of states. This means that quantum
+                computers can perform multiple calculations simultaneously, leading to exponentially faster
+                computations. However, reading the results from a superposition is challenging, and extracting the
+                desired information requires complex techniques. Peter Shor and Don Coppersmith developed a quantum
+                algorithm in 1994 called the quantum Fourier transform, which allows for extracting frequency
+                information from a periodic superposition. Read more about Quantum Fourier Transform
+                <a href="https://www.qutube.nl/quantum-algorithms/quantum-fourier-transform"><u>here</u></a>. This
+                process can
+                lead to the
+                discovery of the prime factors of N, even for large numbers, which would be impractical for
+                classical computers.
+                <br><br>
+                In conclusion, although quantum computers have the potential to break current encryption methods,
+                their practical implementation is still years away. However, the threat of "Store Now, Decrypt
+                Later" practices has prompted the U.S. Congress to pass legislation mandating the adoption of
+                quantum-resistant cryptographic methods. The history and principles of encryption, as well as the
+                specific challenges and opportunities presented by quantum computers, highlight the need for robust
+                and future-proof cryptographic techniques.
+                <br><br>
+                <!--span style="font-size: 13px;">References:</span><br>
+                <span class="references">
+                    How Quantum Computers Break The Internet... Starting Now via Youtube - <a
+                        href="https://youtu.be/-UrdExQW0cs"> https://youtu.be/-UrdExQW0cs</a>
+                </span-->
+
+            </p>
             </div>
+
         </article>
+
     </section>
 </body>
 
